@@ -1,5 +1,5 @@
 import React from 'react'
-import './input.css'
+import './Input.css'
 
 const Input = ({type,label, user,value, setUser, placeholder,name}) => {
   return (
@@ -7,7 +7,7 @@ const Input = ({type,label, user,value, setUser, placeholder,name}) => {
         <p className='input-label'>{label}</p>
         <input
            className='custom-input'
-           name={name}
+           name={name}git push origin main
            type={type}
            value={value}
            placeholder={placeholder}
