@@ -1,0 +1,27 @@
+.signup-wrapper{
+    background-color: yello;
+    width: 30%;
+    height: auto;
+    box-shadow: var(--shadow-color);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+   
+}
+
+.bottom{
+    text-align: center;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.bottom:hover{
+    color: var(--theme);
+}

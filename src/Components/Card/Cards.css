@@ -1,0 +1,35 @@
+.my-card{
+    box-shadow: var(--shadow-color);
+    width: 410px;
+    border-radius: 0.5rem !important;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.ant-card-head-title{
+    font-size : 20px;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.my-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 2rem 1rem;
+    flex-wrap: wrap;
+    
+}
+
+.button{
+    background-color: var(--theme) !important;
+    width: 100%;
+    cursor: pointer;
+   
+}

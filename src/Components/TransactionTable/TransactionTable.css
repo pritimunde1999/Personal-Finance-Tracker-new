@@ -1,0 +1,65 @@
+.input-bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:0.5rem;
+    width: 90%;
+    box-shadow: var(--shadow-color);
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+    
+}
+
+.input-bar input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 0;
+    outline: none;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    gap:1rem; 
+    align-items: center;
+    
+    margin-bottom: 1rem;
+}
+
+.select{
+    width: 20%;
+    box-shadow: var(--shadow-color);
+    outline: none;
+   
+}
+
+.select-with-border {
+    border: 0px solid #fff; /* Replace YourBorderColor with the desired color code */
+  }
+.table-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+   margin: 0rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.table{
+    width: 98%;
+    margin: 1rem;
+}
+
+.btn{
+    background-color: var(--theme);
+    color: var(--white);
+    border-radius: 0.3rem;
+    padding: 0.55rem 1rem;
+    cursor: pointer;
+}

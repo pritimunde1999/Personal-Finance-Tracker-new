@@ -1,0 +1,21 @@
+.wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+}
+
+
+.charts-wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: auto;
+   margin: 1rem;
+   margin-bottom: 2.5rem;
+}
+
+.linechart{
+   background-color: white;
+   
+}
